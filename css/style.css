@@ -1,0 +1,105 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	width: 90%;
+	margin: auto;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ /* ---------------Modifications--------------------*/
+ header {
+	 height: 50px;
+	 background-color: #1B262C;
+	 border-radius: 10px;
+ }
+ nav ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 2%;
+	height: 50px;
+}
+nav {
+	margin-right: 3%;
+}
+nav ul li a {
+	color: #F6F2D4;
+}
+h1 {
+	font-size: 3rem;
+	text-align: center;
+	padding:20px 0;
+}
+.para {
+	background-color: rgba(27, 38, 44, .5);
+	width: 60%;
+	margin: auto;
+	border-radius: 10px;
+}
+.quest  {
+	background-color: rgba(47, 11, 44, .5);
+	font-family: 'Share Tech Mono';
+	width: 60%;
+	margin: auto;
+	border-radius: 7px;
+	padding: 10px 15px;
+	font-size: 1.5rem;
+	border: solid black 1px;
+}
+
+.first-section {
+	background-color: #406882;
+	color: #F6F2D4;
+}
+
+.first-section p {
+	padding: 10px 15px;
+	line-height: 1.2rem;
+	color: #49FF00;
+	font-family: 'Cutive Mono';
+}
+
+i {
+	color: azure;
+}
