@@ -10,7 +10,7 @@
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Montserrat:wght@100;400&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <!--favicon code -->
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <!--css-->
@@ -24,46 +24,43 @@
 </head>
 <body>
     <header>    
-        <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">About</a></li>
-        </ul>
-        </nav>
+      <h1>
+       Hello! I am Isaac. A software engineer in Houston<br>
+        making technology available to all!<br> </h1> 
+      <h3>Aiding local business leverage technology to their advantage</h3>
     </header>
     <section class="first-section">
-        <h1>Personalized solutions for your business</h1>
-        <h3 class="quest">Who Am I?</h3>
-        <p class="para">
-            - My name is Isaac<br>
-            - I am a software engineer<br>
-            - Recently graduated with BS in Computer Science from the University of Houston<br>
-            - Helping local businesses leverage tech to reach max potential<br>
-        </p>
-        <h3 class="quest">How can technology help your business?</h3>
-        <p class="para">
-            -Blah<br>
-            -Blah<br>
-            -Blah<br>
-        </p>
-        <h3 class="quest">How Can I help?</h3>
-        <p class="para">
-            -Blah<br>
-            -Blah<br>
-            -Blah<br>
-        </p>
+    <h2>Portfolio</h2>
+    <h3>View some of my previous work below</h3>
+    <section class="within">
+        <section class="site"><a href="https://cranky-brahmagupta-07c8fc.netlify.app/" target="_blank"><img src="images/baba.png" alt=""></a><span>Baba's Kitchen</span></section>
+        <section class="site"><a href="https://elegant-torvalds-4fcee6.netlify.app/" target="_blank"><img src="images/coco.png" alt=""></a><span>Coco's Salon</span></section>
+        <section class="site"><a href="https://tender-jones-071f40.netlify.app/" target="_blank"><img src="images/insurance.png" alt=""></a><span>Happy Insurance</span></section>
     </section>
-    <!--Porjects-->
-    <section>
-        <ul>
-            <li><a href="#">certain project</a></li>
-            <li><a href="#">another project</a></li>
-        </ul>
-    </section> 
+    </section>
+    <section class="about">
+        <h2>How does it work?</h2>
+        <p><i class="fa-solid fa-address-card fa-2xl"></i> - Book a meeting</p>
+        <p><i class="fa-solid fa-people-carry-box fa-2xl"></i> - Meet to assess the specific needs of your business</p>
+        <p><i class="fa-solid fa-handshake fa-2xl"></i> - Agree on a solution that fits your needs </p>
+        <p><i class="fa-solid fa-chalkboard-user fa-2xl"> </i> - Software is custom made and delivered as agreed</p>
+    </section>
+    <section class="contact">
+        <h2>Contact</h2>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Your Name: <input type="text" name="name" required/></label>
+            </p>
+            <p>
+                <label>Your Phone Number: <input type="tel" name="tel" required/></label>
+            </p>
+            <p>
+                <button type="submit">Send</button>
+            </p>
+        </form>
+    </section>
     <footer>
-        <p>&copy Copyright 2020 by Isaac De Jesus Reyes. All rights reserved. </p>
+        <p>&copy Copyright 2022 by Isaac De Jesus Reyes. All rights reserved. </p>
     </footer>
-
 </body>
 </html>
